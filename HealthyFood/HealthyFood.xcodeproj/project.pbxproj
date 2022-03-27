@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E912E4D227EF7B3E0091A517 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912E4D127EF7B3E0091A517 /* MainScreen.swift */; };
+		E912E4D527EF7B780091A517 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912E4D427EF7B780091A517 /* BackgroundView.swift */; };
+		E912E4D827EF7E300091A517 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912E4D727EF7E300091A517 /* TabBarView.swift */; };
+		E912E4DB27EF7E840091A517 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912E4DA27EF7E840091A517 /* UserProfile.swift */; };
+		E912E4DE27EF86BD0091A517 /* ProductsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912E4DD27EF86BD0091A517 /* ProductsList.swift */; };
+		E912E4E227EF8A3D0091A517 /* TypeOfProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912E4E127EF8A3D0091A517 /* TypeOfProduct.swift */; };
+		E912E4E427EF945D0091A517 /* ProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912E4E327EF945D0091A517 /* ProductScreen.swift */; };
 		F1C5F74527C1491800F228D4 /* HealthyFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C5F73527C1491200F228D4 /* HealthyFoodApp.swift */; };
 		F1C5F74627C1491800F228D4 /* HealthyFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C5F73527C1491200F228D4 /* HealthyFoodApp.swift */; };
 		F1C5F74727C1491800F228D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C5F73627C1491200F228D4 /* ContentView.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E912E4D127EF7B3E0091A517 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		E912E4D427EF7B780091A517 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		E912E4D727EF7E300091A517 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		E912E4DA27EF7E840091A517 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		E912E4DD27EF86BD0091A517 /* ProductsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsList.swift; sourceTree = "<group>"; };
+		E912E4E127EF8A3D0091A517 /* TypeOfProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfProduct.swift; sourceTree = "<group>"; };
+		E912E4E327EF945D0091A517 /* ProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreen.swift; sourceTree = "<group>"; };
 		F1C5F73527C1491200F228D4 /* HealthyFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyFoodApp.swift; sourceTree = "<group>"; };
 		F1C5F73627C1491200F228D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1C5F73727C1491700F228D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,9 +56,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E912E4CF27EF7AF70091A517 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4DC27EF86970091A517 /* ProductsList */,
+				E912E4D627EF7E0E0091A517 /* TabBar */,
+				E912E4D927EF7E710091A517 /* Profile */,
+				E912E4D027EF7B160091A517 /* Main */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		E912E4D027EF7B160091A517 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4D127EF7B3E0091A517 /* MainScreen.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E912E4D327EF7B5A0091A517 /* ReusableItems */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4E027EF8A120091A517 /* TypeOfProduct */,
+				E912E4DF27EF8A010091A517 /* Views */,
+			);
+			path = ReusableItems;
+			sourceTree = "<group>";
+		};
+		E912E4D627EF7E0E0091A517 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4D727EF7E300091A517 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E912E4D927EF7E710091A517 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4DA27EF7E840091A517 /* UserProfile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E912E4DC27EF86970091A517 /* ProductsList */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4DD27EF86BD0091A517 /* ProductsList.swift */,
+				E912E4E327EF945D0091A517 /* ProductScreen.swift */,
+			);
+			path = ProductsList;
+			sourceTree = "<group>";
+		};
+		E912E4DF27EF8A010091A517 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4D427EF7B780091A517 /* BackgroundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E912E4E027EF8A120091A517 /* TypeOfProduct */ = {
+			isa = PBXGroup;
+			children = (
+				E912E4E127EF8A3D0091A517 /* TypeOfProduct.swift */,
+			);
+			path = TypeOfProduct;
+			sourceTree = "<group>";
+		};
 		F1C5F72F27C1491100F228D4 = {
 			isa = PBXGroup;
 			children = (
+				E912E4D327EF7B5A0091A517 /* ReusableItems */,
+				E912E4CF27EF7AF70091A517 /* Flows */,
 				F1C5F73427C1491200F228D4 /* Shared */,
 				F1C5F74327C1491800F228D4 /* macOS */,
 				F1C5F73D27C1491700F228D4 /* Products */,
@@ -176,7 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E912E4DE27EF86BD0091A517 /* ProductsList.swift in Sources */,
+				E912E4D227EF7B3E0091A517 /* MainScreen.swift in Sources */,
 				F1C5F74727C1491800F228D4 /* ContentView.swift in Sources */,
+				E912E4DB27EF7E840091A517 /* UserProfile.swift in Sources */,
+				E912E4E427EF945D0091A517 /* ProductScreen.swift in Sources */,
+				E912E4D527EF7B780091A517 /* BackgroundView.swift in Sources */,
+				E912E4D827EF7E300091A517 /* TabBarView.swift in Sources */,
+				E912E4E227EF8A3D0091A517 /* TypeOfProduct.swift in Sources */,
 				F1C5F74527C1491800F228D4 /* HealthyFoodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

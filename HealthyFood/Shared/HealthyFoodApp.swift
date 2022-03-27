@@ -14,4 +14,8 @@ struct HealthyFoodApp: App {
             ContentView()
         }
     }
+    
+    init() {
+       UITableView.appearance().backgroundColor = .clear
+    }
 }
